@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiplication and Division</title>
+</head>
+<body>
+	<label>Number 1</label>
+	<input type="text" id="number_one"><br/>
+
+	<label>Number 2</label>
+	<input type="text" id="number_two"><br/>
+
+	<button id="multilply">Multiply</button>
+	<button id="divide">Divide</button>
+
+	<div id="result"></div>
+
+<script>
+// REFATORAR QUANDO TIVER TEMPO
+
+document.getElementById('multilply').addEventListener('click', function(){
+	var number_one = document.getElementById("number_one").value;
+	var number_two = document.getElementById("number_two").value;
+
+	document.getElementById('result').innerText = (number_one * number_two);
+});
+
+document.getElementById('divide').addEventListener('click', function(){
+	var number_one = document.getElementById("number_one").value;
+	var number_two = document.getElementById("number_two").value;
+
+	document.getElementById('result').innerText = (number_one / number_two);
+});
+
+</script>
+
+</body>
+</html>
