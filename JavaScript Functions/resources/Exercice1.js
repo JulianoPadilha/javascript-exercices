@@ -1,14 +1,9 @@
-function reverseNumber(){
-	var number = "32243";
-	var reverse = number.split("");
+function reverseNumber(number){
+	var reverse = number.split("").reverse();
 
-	console.log(reverse);
+	console.log("Original number: " + number);
+	console.log("Reversed number: " + reverse.join(""));
 
-	var result = [];
-	for(var i = 0; i < number.length; i++){
-		result += reverse.pop(i); 
-	}
-	console.log(result);	
 }
 
-reverseNumber();
+reverseNumber("12345");

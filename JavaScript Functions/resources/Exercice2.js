@@ -1,5 +1,5 @@
-function isAPolindromeWord(){
-	var word = "nurses run".replace(/\s+/g, ''); //replace remove os espaços em branco utilizando regex
+function isAPolindromeWord(word){
+	word.replace(/\s+/g, ''); //replace remove os espaços em branco utilizando regex
 	var splitedWord = word.split("");			 // \s is the regex for "whitespace", and g is the "global" flag, meaning match ALL \s (whitespaces).
 
 	var result = [];
@@ -14,4 +14,4 @@ function isAPolindromeWord(){
 	}
 }
 
-isAPolindromeWord();
+isAPolindromeWord("madamsasa");

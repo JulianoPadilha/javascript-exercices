@@ -16,7 +16,7 @@ A palindrome is word, phrase, or sequence that reads the same backward as forwar
 **3.** Write a JavaScript function that generates all combinations of a string.
 ```
 Example string : 'dog' 
-Expected Output : d,do,dog,o,og,g 
+Expected Output : d,o,do,g,dg,og,dog 
 ```
 
 **4.** Write a JavaScript function that returns a passed string with letters in alphabetical order.
